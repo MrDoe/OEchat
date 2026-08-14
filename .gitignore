@@ -1,0 +1,9 @@
+node_modules/
+dist/
+server/data/
+infra/models/
+infra/asr/.venv/
+__pycache__/
+*.local
+.env
+.DS_Store

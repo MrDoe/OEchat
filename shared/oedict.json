@@ -1,0 +1,803 @@
+{
+  "source": "/home/christoph/code/elderlingo",
+  "entries": [
+    {
+      "word": "hāl",
+      "ipa": "hɑːl",
+      "meaning": "healthy, whole",
+      "ttsEn": "hahl",
+      "ttsDe": "haahl"
+    },
+    {
+      "word": "ġesund",
+      "ipa": "jeˈsund",
+      "meaning": "well, sound",
+      "ttsEn": "yeh-soond",
+      "ttsDe": "jesunt"
+    },
+    {
+      "word": "swīþe",
+      "ipa": "ˈswiː.ðe",
+      "meaning": "very",
+      "ttsEn": "swee-theh",
+      "ttsDe": "svee-theh"
+    },
+    {
+      "word": "lēof",
+      "ipa": "leːof",
+      "meaning": "dear, beloved",
+      "ttsEn": "leh-off",
+      "ttsDe": "leh-ohf"
+    },
+    {
+      "word": "cwic",
+      "ipa": "kwik",
+      "meaning": "alive, living",
+      "ttsEn": "kwik",
+      "ttsDe": "kwick"
+    },
+    {
+      "word": "god morgen",
+      "ipa": "ɡod ˈmor.jen",
+      "meaning": "good morning",
+      "ttsEn": "god mor-yen",
+      "ttsDe": "gott morjen"
+    },
+    {
+      "word": "wes hāl",
+      "ipa": "wes hɑːl",
+      "meaning": "be well! (farewell)",
+      "ttsEn": "wess hahl",
+      "ttsDe": "wess haahl"
+    },
+    {
+      "word": "þancie þē",
+      "ipa": "ˈθɑn.tʃi.e θeː",
+      "meaning": "thank you",
+      "ttsEn": "thahn-chee-eh thee",
+      "ttsDe": "thankieh thee"
+    },
+    {
+      "word": "iċ",
+      "ipa": "itʃ",
+      "meaning": "I",
+      "ttsEn": "itch",
+      "ttsDe": "ich"
+    },
+    {
+      "word": "þū",
+      "ipa": "θuː",
+      "meaning": "you (sg.)",
+      "ttsEn": "thoo",
+      "ttsDe": "thoo"
+    },
+    {
+      "word": "hē",
+      "ipa": "heː",
+      "meaning": "he",
+      "ttsEn": "heh",
+      "ttsDe": "hee"
+    },
+    {
+      "word": "hēo",
+      "ipa": "heːo",
+      "meaning": "she",
+      "ttsEn": "heh-oh",
+      "ttsDe": "heh-oh"
+    },
+    {
+      "word": "hit",
+      "ipa": "hit",
+      "meaning": "it",
+      "ttsEn": "hit",
+      "ttsDe": "hitt"
+    },
+    {
+      "word": "wē",
+      "ipa": "weː",
+      "meaning": "we",
+      "ttsEn": "weh",
+      "ttsDe": "weh"
+    },
+    {
+      "word": "ġē",
+      "ipa": "jeː",
+      "meaning": "you (pl.)",
+      "ttsEn": "yeh",
+      "ttsDe": "jee"
+    },
+    {
+      "word": "hīe",
+      "ipa": "hiːe",
+      "meaning": "they",
+      "ttsEn": "hee-eh",
+      "ttsDe": "hee-eh"
+    },
+    {
+      "word": "ān",
+      "ipa": "ɑːn",
+      "meaning": "one",
+      "ttsEn": "ahn",
+      "ttsDe": "ahn"
+    },
+    {
+      "word": "twā",
+      "ipa": "twɑː",
+      "meaning": "two",
+      "ttsEn": "twah",
+      "ttsDe": "tvah"
+    },
+    {
+      "word": "þrīe",
+      "ipa": "θriːe",
+      "meaning": "three",
+      "ttsEn": "three-eh",
+      "ttsDe": "three-eh"
+    },
+    {
+      "word": "fēower",
+      "ipa": "ˈfeːo.wer",
+      "meaning": "four",
+      "ttsEn": "feh-oh-ver",
+      "ttsDe": "feh-oh-ver"
+    },
+    {
+      "word": "fīf",
+      "ipa": "fiːf",
+      "meaning": "five",
+      "ttsEn": "feef",
+      "ttsDe": "feef"
+    },
+    {
+      "word": "siex",
+      "ipa": "siːks",
+      "meaning": "six",
+      "ttsEn": "see-ecks",
+      "ttsDe": "see-ecks"
+    },
+    {
+      "word": "seofon",
+      "ipa": "ˈseo.von",
+      "meaning": "seven",
+      "ttsEn": "seh-oh-von",
+      "ttsDe": "seh-oh-fon"
+    },
+    {
+      "word": "eahta",
+      "ipa": "ˈæɑx.tɑ",
+      "meaning": "eight",
+      "ttsEn": "ay-ah-tah",
+      "ttsDe": "eh-ah-tah"
+    },
+    {
+      "word": "nigon",
+      "ipa": "ˈni.ɣon",
+      "meaning": "nine",
+      "ttsEn": "nee-gon",
+      "ttsDe": "nee-gon"
+    },
+    {
+      "word": "tīen",
+      "ipa": "tiːen",
+      "meaning": "ten",
+      "ttsEn": "tee-en",
+      "ttsDe": "tee-en"
+    },
+    {
+      "word": "fæder",
+      "ipa": "ˈfæ.der",
+      "meaning": "father",
+      "ttsEn": "fah-der",
+      "ttsDe": "fäder"
+    },
+    {
+      "word": "mōdor",
+      "ipa": "ˈmoː.dor",
+      "meaning": "mother",
+      "ttsEn": "moh-dor",
+      "ttsDe": "moh-dor"
+    },
+    {
+      "word": "brōþor",
+      "ipa": "ˈbroː.θor",
+      "meaning": "brother",
+      "ttsEn": "broh-thor",
+      "ttsDe": "broh-thor"
+    },
+    {
+      "word": "sweostor",
+      "ipa": "ˈsweo.stor",
+      "meaning": "sister",
+      "ttsEn": "sweh-os-tor",
+      "ttsDe": "sveh-oss-tor"
+    },
+    {
+      "word": "sunu",
+      "ipa": "ˈsu.nu",
+      "meaning": "son",
+      "ttsEn": "soo-noo",
+      "ttsDe": "soo-noo"
+    },
+    {
+      "word": "dohtor",
+      "ipa": "ˈdox.tor",
+      "meaning": "daughter",
+      "ttsEn": "doch-tor",
+      "ttsDe": "dochtor"
+    },
+    {
+      "word": "wīf",
+      "ipa": "wiːf",
+      "meaning": "woman, wife",
+      "ttsEn": "weef",
+      "ttsDe": "weef"
+    },
+    {
+      "word": "mæġ",
+      "ipa": "mæj",
+      "meaning": "relative, kinsman",
+      "ttsEn": "may-yeh",
+      "ttsDe": "mäj"
+    },
+    {
+      "word": "iċ eom",
+      "ipa": "itʃ eom",
+      "meaning": "I am",
+      "ttsEn": "itch eh-om",
+      "ttsDe": "ich eh-om"
+    },
+    {
+      "word": "þū eart",
+      "ipa": "θuː æɑrt",
+      "meaning": "you are",
+      "ttsEn": "thoo eh-art",
+      "ttsDe": "thoo eh-art"
+    },
+    {
+      "word": "hē is",
+      "ipa": "heː is",
+      "meaning": "he is",
+      "ttsEn": "heh is",
+      "ttsDe": "hee iss"
+    },
+    {
+      "word": "hēo is",
+      "ipa": "heːo is",
+      "meaning": "she is",
+      "ttsEn": "heh-oh is",
+      "ttsDe": "heh-oh iss"
+    },
+    {
+      "word": "hit is",
+      "ipa": "hit is",
+      "meaning": "it is",
+      "ttsEn": "hit iss",
+      "ttsDe": "hitt iss"
+    },
+    {
+      "word": "wē sindon",
+      "ipa": "weː ˈsin.don",
+      "meaning": "we are",
+      "ttsEn": "weh sin-don",
+      "ttsDe": "weh zin-don"
+    },
+    {
+      "word": "ġē sindon",
+      "ipa": "jeː ˈsin.don",
+      "meaning": "you are (pl.)",
+      "ttsEn": "yeh sin-don",
+      "ttsDe": "jee zin-don"
+    },
+    {
+      "word": "hīe sindon",
+      "ipa": "hiːe ˈsin.don",
+      "meaning": "they are",
+      "ttsEn": "hee-eh sin-don",
+      "ttsDe": "hee-eh zin-don"
+    },
+    {
+      "word": "iċ eom hāl",
+      "ipa": "itʃ eom hɑːl",
+      "meaning": "I am healthy",
+      "ttsEn": "itch eh-om hahl",
+      "ttsDe": "ich eh-om haahl"
+    },
+    {
+      "word": "þū eart lēof",
+      "ipa": "θuː æɑrt leːof",
+      "meaning": "you are dear",
+      "ttsEn": "thoo eh-art leh-off",
+      "ttsDe": "thoo eh-art leh-ohf"
+    },
+    {
+      "word": "hē is swīþe ġesund",
+      "ipa": "heː is ˈswiː.ðe jeˈsund",
+      "meaning": "he is very healthy",
+      "ttsEn": "heh iss swee-theh yeh-soond",
+      "ttsDe": "hee iss svee-theh jesunt"
+    },
+    {
+      "word": "hēo is cwic",
+      "ipa": "heːo is kwik",
+      "meaning": "she is alive",
+      "ttsEn": "heh-oh iss kwik",
+      "ttsDe": "heh-oh iss kwick"
+    },
+    {
+      "word": "wē sindon ġesunde",
+      "ipa": "weː ˈsin.don jeˈsun.de",
+      "meaning": "we are healthy",
+      "ttsEn": "weh sin-don yeh-soon-deh",
+      "ttsDe": "weh zin-don jesun-deh"
+    },
+    {
+      "word": "hīe sindon hāle",
+      "ipa": "hiːe ˈsin.don ˈhɑː.le",
+      "meaning": "they are healthy",
+      "ttsEn": "hee-eh sin-don hah-leh",
+      "ttsDe": "hee-eh zin-don haah-leh"
+    },
+    {
+      "word": "hwæt",
+      "ipa": "hwæt",
+      "meaning": "what; lo!",
+      "ttsEn": "hwat",
+      "ttsDe": "hwät"
+    },
+    {
+      "word": "hū",
+      "ipa": "huː",
+      "meaning": "how",
+      "ttsEn": "hoo",
+      "ttsDe": "hoo"
+    },
+    {
+      "word": "wes",
+      "ipa": "wes",
+      "meaning": "be (imp. sg.)",
+      "ttsEn": "wess",
+      "ttsDe": "wess"
+    },
+    {
+      "word": "hwǣr",
+      "ipa": "hwær",
+      "meaning": "where",
+      "ttsEn": "hwair",
+      "ttsDe": "hwair"
+    },
+    {
+      "word": "hwy",
+      "ipa": "hwiː",
+      "meaning": "why",
+      "ttsEn": "hwee",
+      "ttsDe": "hwee"
+    },
+    {
+      "word": "hwā",
+      "ipa": "hwɑː",
+      "meaning": "who",
+      "ttsEn": "hwah",
+      "ttsDe": "hwah"
+    },
+    {
+      "word": "mīn",
+      "ipa": "miːn",
+      "meaning": "my",
+      "ttsEn": "meen",
+      "ttsDe": "meen"
+    },
+    {
+      "word": "þīn",
+      "ipa": "θiːn",
+      "meaning": "your",
+      "ttsEn": "theen",
+      "ttsDe": "theen"
+    },
+    {
+      "word": "nama",
+      "ipa": "ˈnɑ.mɑ",
+      "meaning": "name",
+      "ttsEn": "nah-mah",
+      "ttsDe": "nah-mah"
+    },
+    {
+      "word": "dæġ",
+      "ipa": "dæj",
+      "meaning": "day",
+      "ttsEn": "day",
+      "ttsDe": "däj"
+    },
+    {
+      "word": "niht",
+      "ipa": "nixt",
+      "meaning": "night",
+      "ttsEn": "nicht",
+      "ttsDe": "nicht"
+    },
+    {
+      "word": "morgen",
+      "ipa": "ˈmor.jen",
+      "meaning": "morning",
+      "ttsEn": "mor-yen",
+      "ttsDe": "morjen"
+    },
+    {
+      "word": "wæter",
+      "ipa": "ˈwæ.ter",
+      "meaning": "water",
+      "ttsEn": "wa-ter",
+      "ttsDe": "wätter"
+    },
+    {
+      "word": "hlāf",
+      "ipa": "hlɑːf",
+      "meaning": "bread",
+      "ttsEn": "hlaaf",
+      "ttsDe": "hlaaf"
+    },
+    {
+      "word": "medu",
+      "ipa": "ˈme.du",
+      "meaning": "mead",
+      "ttsEn": "meh-doo",
+      "ttsDe": "medu"
+    },
+    {
+      "word": "ealu",
+      "ipa": "ˈæɑ.lu",
+      "meaning": "ale",
+      "ttsEn": "eh-ah-loo",
+      "ttsDe": "ealu"
+    },
+    {
+      "word": "hūs",
+      "ipa": "huːs",
+      "meaning": "house",
+      "ttsEn": "hoos",
+      "ttsDe": "hoos"
+    },
+    {
+      "word": "land",
+      "ipa": "lɑnd",
+      "meaning": "land",
+      "ttsEn": "lahnd",
+      "ttsDe": "land"
+    },
+    {
+      "word": "cyning",
+      "ipa": "ˈky.niŋ",
+      "meaning": "king",
+      "ttsEn": "ku-ning",
+      "ttsDe": "küning"
+    },
+    {
+      "word": "cwēn",
+      "ipa": "kweːn",
+      "meaning": "queen",
+      "ttsEn": "kveen",
+      "ttsDe": "kveen"
+    },
+    {
+      "word": "frēond",
+      "ipa": "freːond",
+      "meaning": "friend",
+      "ttsEn": "freh-ohnd",
+      "ttsDe": "freh-ohnd"
+    },
+    {
+      "word": "bearn",
+      "ipa": "bæɑrn",
+      "meaning": "child",
+      "ttsEn": "beh-arn",
+      "ttsDe": "beh-arn"
+    },
+    {
+      "word": "sōþ",
+      "ipa": "soːθ",
+      "meaning": "truth",
+      "ttsEn": "sooth",
+      "ttsDe": "sooth"
+    },
+    {
+      "word": "wēl",
+      "ipa": "weːl",
+      "meaning": "well",
+      "ttsEn": "weel",
+      "ttsDe": "weel"
+    },
+    {
+      "word": "nū",
+      "ipa": "nuː",
+      "meaning": "now",
+      "ttsEn": "noo",
+      "ttsDe": "noo"
+    },
+    {
+      "word": "þā",
+      "ipa": "θɑː",
+      "meaning": "then",
+      "ttsEn": "thah",
+      "ttsDe": "thah"
+    },
+    {
+      "word": "ġēa",
+      "ipa": "jæɑ",
+      "meaning": "yes",
+      "ttsEn": "yeah",
+      "ttsDe": "jeah"
+    },
+    {
+      "word": "nese",
+      "ipa": "ˈne.se",
+      "meaning": "no",
+      "ttsEn": "neh-seh",
+      "ttsDe": "neh-seh"
+    },
+    {
+      "word": "sē",
+      "ipa": "seː",
+      "meaning": "the (m.)",
+      "ttsEn": "seh",
+      "ttsDe": "seh"
+    },
+    {
+      "word": "gōd",
+      "ipa": "ɡoːd",
+      "meaning": "good",
+      "ttsEn": "goad",
+      "ttsDe": "gott"
+    },
+    {
+      "word": "gode",
+      "ipa": "ˈɡo.de",
+      "meaning": "good (d.)",
+      "ttsEn": "go-deh",
+      "ttsDe": "gott-eh"
+    },
+    {
+      "word": "hlāford",
+      "ipa": "ˈhlɑː.vord",
+      "meaning": "lord",
+      "ttsEn": "hlaaf-ort",
+      "ttsDe": "hlaaf-ort"
+    },
+    {
+      "word": "eorþe",
+      "ipa": "ˈe.or.θe",
+      "meaning": "earth",
+      "ttsEn": "eh-or-theh",
+      "ttsDe": "eh-or-theh"
+    },
+    {
+      "word": "heofon",
+      "ipa": "ˈheo.von",
+      "meaning": "heaven, sky",
+      "ttsEn": "heh-oh-fon",
+      "ttsDe": "heh-oh-fon"
+    },
+    {
+      "word": "sunne",
+      "ipa": "ˈsun.ne",
+      "meaning": "sun",
+      "ttsEn": "sun-neh",
+      "ttsDe": "sun-neh"
+    },
+    {
+      "word": "mōna",
+      "ipa": "ˈmoː.nɑ",
+      "meaning": "moon",
+      "ttsEn": "moh-nah",
+      "ttsDe": "moh-nah"
+    },
+    {
+      "word": "steorra",
+      "ipa": "ˈste.or.rɑ",
+      "meaning": "star",
+      "ttsEn": "steh-or-rah",
+      "ttsDe": "steh-or-rah"
+    },
+    {
+      "word": "trēow",
+      "ipa": "treːow",
+      "meaning": "tree",
+      "ttsEn": "treh-oh",
+      "ttsDe": "treh-oh"
+    },
+    {
+      "word": "wudu",
+      "ipa": "ˈwu.du",
+      "meaning": "wood",
+      "ttsEn": "woo-doo",
+      "ttsDe": "wudu"
+    },
+    {
+      "word": "wulf",
+      "ipa": "wulf",
+      "meaning": "wolf",
+      "ttsEn": "wulf",
+      "ttsDe": "wulf"
+    },
+    {
+      "word": "hors",
+      "ipa": "hors",
+      "meaning": "horse",
+      "ttsEn": "hors",
+      "ttsDe": "hors"
+    },
+    {
+      "word": "hund",
+      "ipa": "hund",
+      "meaning": "dog",
+      "ttsEn": "hund",
+      "ttsDe": "hund"
+    },
+    {
+      "word": "fugol",
+      "ipa": "ˈfu.ɣol",
+      "meaning": "bird",
+      "ttsEn": "foo-gol",
+      "ttsDe": "foo-gol"
+    },
+    {
+      "word": "fisc",
+      "ipa": "fiʃ",
+      "meaning": "fish",
+      "ttsEn": "fisk",
+      "ttsDe": "fisk"
+    },
+    {
+      "word": "sang",
+      "ipa": "sɑŋɡ",
+      "meaning": "song",
+      "ttsEn": "sahng",
+      "ttsDe": "sang"
+    },
+    {
+      "word": "lēoþ",
+      "ipa": "leːoθ",
+      "meaning": "poem, song",
+      "ttsEn": "leh-oth",
+      "ttsDe": "leh-oth"
+    },
+    {
+      "word": "bōc",
+      "ipa": "boːk",
+      "meaning": "book",
+      "ttsEn": "bohk",
+      "ttsDe": "bohk"
+    },
+    {
+      "word": "word",
+      "ipa": "word",
+      "meaning": "word",
+      "ttsEn": "wort",
+      "ttsDe": "wort"
+    },
+    {
+      "word": "wyrd",
+      "ipa": "wyrd",
+      "meaning": "fate, destiny",
+      "ttsEn": "wuerd",
+      "ttsDe": "würd"
+    },
+    {
+      "word": "sāwol",
+      "ipa": "ˈsɑː.wol",
+      "meaning": "soul",
+      "ttsEn": "sah-wol",
+      "ttsDe": "sah-wol"
+    },
+    {
+      "word": "sprecan",
+      "ipa": "ˈspre.kɑn",
+      "meaning": "to speak",
+      "ttsEn": "spreh-kahn",
+      "ttsDe": "sprekan"
+    },
+    {
+      "word": "secgan",
+      "ipa": "ˈsed.jɑn",
+      "meaning": "to say",
+      "ttsEn": "seg-jan",
+      "ttsDe": "segjan"
+    },
+    {
+      "word": "hīeran",
+      "ipa": "ˈhiː.er.ɑn",
+      "meaning": "to hear",
+      "ttsEn": "hee-eh-ran",
+      "ttsDe": "hee-eh-ran"
+    },
+    {
+      "word": "sēon",
+      "ipa": "seːon",
+      "meaning": "to see",
+      "ttsEn": "seh-ohn",
+      "ttsDe": "seh-ohn"
+    },
+    {
+      "word": "cuman",
+      "ipa": "ˈku.mɑn",
+      "meaning": "to come",
+      "ttsEn": "koo-mahn",
+      "ttsDe": "kuman"
+    },
+    {
+      "word": "gān",
+      "ipa": "ɡɑːn",
+      "meaning": "to go",
+      "ttsEn": "gahn",
+      "ttsDe": "gahn"
+    },
+    {
+      "word": "etan",
+      "ipa": "ˈe.tɑn",
+      "meaning": "to eat",
+      "ttsEn": "eh-tahn",
+      "ttsDe": "etan"
+    },
+    {
+      "word": "drincan",
+      "ipa": "ˈdriŋ.kɑn",
+      "meaning": "to drink",
+      "ttsEn": "drin-kahn",
+      "ttsDe": "drinkan"
+    },
+    {
+      "word": "lufian",
+      "ipa": "ˈlu.fi.ɑn",
+      "meaning": "to love",
+      "ttsEn": "loo-fi-an",
+      "ttsDe": "loo-fi-an"
+    },
+    {
+      "word": "biddan",
+      "ipa": "ˈbid.dɑn",
+      "meaning": "to ask, to pray",
+      "ttsEn": "bid-dahn",
+      "ttsDe": "bid-dan"
+    },
+    {
+      "word": "þanc",
+      "ipa": "θɑŋk",
+      "meaning": "thanks",
+      "ttsEn": "thank",
+      "ttsDe": "thank"
+    },
+    {
+      "word": "mann",
+      "ipa": "mɑnn",
+      "meaning": "man, person",
+      "ttsEn": "mahn",
+      "ttsDe": "mann"
+    },
+    {
+      "word": "wīġ",
+      "ipa": "wiːj",
+      "meaning": "war, battle",
+      "ttsEn": "wee",
+      "ttsDe": "wee"
+    },
+    {
+      "word": "friþ",
+      "ipa": "friθ",
+      "meaning": "peace",
+      "ttsEn": "frith",
+      "ttsDe": "frith"
+    },
+    {
+      "word": "ealle",
+      "ipa": "ˈæɑl.le",
+      "meaning": "all",
+      "ttsEn": "al-leh",
+      "ttsDe": "al-leh"
+    },
+    {
+      "word": "līf",
+      "ipa": "liːf",
+      "meaning": "life",
+      "ttsEn": "leef",
+      "ttsDe": "leef"
+    }
+  ]
+}
