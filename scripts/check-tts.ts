@@ -19,6 +19,7 @@ const OUT_DIR = path.join(os.tmpdir(), 'oechat-tts-check');
 
 const SENTENCES = [
   'Wes hāl, frēond. Hū eart þū?',
+  'Wes hāl, frēond. Hū gǣþ hit?',
   'Iċ eom Ālfrēd, se cyning. Hwæt is þīn nama?',
   'Godne morgen! Sprecan wē on Englisċ?',
   'Mīn nama is Cædmon. Iċ lufie medu.',

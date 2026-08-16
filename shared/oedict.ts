@@ -62,7 +62,8 @@ export function normalizeKey(s: string): string {
 //   1. x -> ks; cc -> kk; sc -> sch; cg -> dsch
 //   2. c: ċ / palatal (adjacent to e, i, æ) -> tsch; otherwise k
 //   3. g: ġ / palatal -> j; otherwise g
-//   4. long diphthongs: ēa/eá -> éa, ēo/eó -> éo, īe/íe -> íe
+//   4. long diphthongs: ēa/eá -> ea, ēo/eó -> eo, īe/íe -> ie (the skill's
+//      acute is dropped for the tokenizer, which reads "eo" as hiatus)
 //   5. long vowels doubled: ā->aa, ǣ->ää, ē->eh, ī->ii, ō->oo, ū->uu, ȳ->üü
 //      short: æ -> ä, y -> ü
 //   6. h: word-initial -> h, otherwise -> ch
@@ -75,6 +76,7 @@ export function normalizeKey(s: string): string {
 //   - long ē -> "eh" (German /eː/); "ee" is read as English /iː/ ("see"->/siː/)
 //   - word-initial voiceless s -> plain "s" ("ß"+front vowel garbles, e.g.
 //     "ßee" -> "Ess-Ih"; the skill's ß stays for non-initial voiceless s)
+//   - word-final s -> plain "s" (German final s reads [s] anyway)
 //   - ß is never uppercased ("ß"->"SS" garbles: "Se"->"SSee"->"S.C.")
 const SCH = '\uE000';
 const DSCH = '\uE001';
@@ -82,10 +84,14 @@ const TSCHE = '\uE002';
 const S_VOICED = '\uE003';
 const S_INITIAL = '\uE004';
 const EH_H = '\uE005';
-const E_DIPH = '\uE006';
-const I_DIPH = '\uE007';
 
-const FRONT = 'eēiīæǣǽ';
+// Front vowels that were front when the pre-OE palatalization of c/g ran.
+// ǣ is excluded: it mostly continues *āi/*ā (back at the time), so c/g before
+// it stay hard — gǣþ "gääth", cǣġ "kääj". Explicit ċ/ġ still force palatal.
+const FRONT = 'eēiīæ';
+// With ǣ included, for positions where a following front vowel or j still
+// palatalized: word-final ġ after ǣ (wǣġ "wäj") and ǣlc "ältsch".
+const FRONT_Æ = 'eēiīæǣǽ';
 const VOICED = 'aäáàeéèiíoóòuúùüömnlgjvwrbdz';
 
 export function toLautschriftWord(input: string): string {
@@ -105,15 +111,11 @@ export function toLautschriftWord(input: string): string {
   // one, or flanked by front vowels on both sides (medial g between/mixed
   // vowels stays g — e.g. nigon, fugol, eage; the skill flags this Gray Zone)
   w = w.replace(new RegExp(`^g(?=[${FRONT}])`, 'g'), 'j');
-  w = w.replace(new RegExp(`(?<=[${FRONT}])g$`, 'g'), 'j');
-  w = w.replace(new RegExp(`(?<=[${FRONT}])g(?=[${FRONT}])`, 'g'), 'j');
-  w = w.replace(/ēa|eá/g, 'éa');
-  w = w.replace(/ēo|eó/g, 'éo');
-  w = w.replace(/īe|íe/g, 'íe');
-  // protect the long-diphthong markers so the acute-vowel rules below
-  // ("é" in éa/éo, "í" in íe) are not consumed
-  w = w.replace(/é(?=[ao])/g, E_DIPH);
-  w = w.replace(/í(?=e)/g, I_DIPH);
+  w = w.replace(new RegExp(`(?<=[${FRONT_Æ}])g$`, 'g'), 'j');
+  w = w.replace(new RegExp(`(?<=[${FRONT_Æ}])g(?=[${FRONT_Æ}])`, 'g'), 'j');
+  w = w.replace(/ēa|eá/g, 'ea');
+  w = w.replace(/ēo|eó/g, 'eo');
+  w = w.replace(/īe|íe/g, 'ie');
   // long vowels doubled (macron and acute spellings); æ -> ä, y -> ü
   w = w.replace(/[ǣǽ]/g, 'ää');
   w = w.replace(/[āá]/g, 'aa');
@@ -129,15 +131,14 @@ export function toLautschriftWord(input: string): string {
   w = w.replace(new RegExp(`(?<=[${VOICED}])f(?=[${VOICED}])`, 'g'), 'v');
   w = w.replace(new RegExp(`(?<=[${VOICED}])þ(?=[${VOICED}])`, 'g'), 'ð');
   w = w.replace(new RegExp(`(?<=[${VOICED}])s(?=[${VOICED}])`, 'g'), S_VOICED);
-  w = w.replace(/s/g, 'ß');
+  w = w.replace(/s(?=.)/g, 'ß');
+  w = w.replace(/ßs/g, 'ßß');
   w = w.replace(new RegExp(SCH, 'g'), 'sch');
   w = w.replace(new RegExp(DSCH, 'g'), 'dsch');
   w = w.replace(new RegExp(TSCHE, 'g'), 'tsch');
   w = w.replace(new RegExp(S_VOICED, 'g'), 's');
   w = w.replace(new RegExp(S_INITIAL, 'g'), 's');
   w = w.replace(new RegExp(EH_H, 'g'), 'h');
-  w = w.replace(new RegExp(E_DIPH, 'g'), 'é');
-  w = w.replace(new RegExp(I_DIPH, 'g'), 'í');
   w = w.replace(/[þð]/g, 'th');
   return w;
 }

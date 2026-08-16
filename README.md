@@ -61,6 +61,10 @@ ls infra/voices/narrator_sample.wav   # copied from elderlingo
 npm run dev                         # server :3001, client http://localhost:5173
 ```
 
+`npm run dev` also starts whisper (`infra/asr/run.sh`) and the Chatterbox
+container automatically if they are not already healthy, so once the services
+below are set up once, steps 1–2 are only needed on first run.
+
 ## VRAM budget (16 GB)
 
 | Service | Usage |

@@ -6,9 +6,9 @@ describe('toLautschriftWord (skill rules)', () => {
     expect(toLautschriftWord('hāl')).toBe('haal');
     expect(toLautschriftWord('gōd')).toBe('good');
     expect(toLautschriftWord('wīf')).toBe('wiif');
-    expect(toLautschriftWord('hūs')).toBe('huuß');
-    expect(toLautschriftWord('frēond')).toBe('fréond');
-    expect(toLautschriftWord('hīeran')).toBe('híeran');
+    expect(toLautschriftWord('hūs')).toBe('huus');
+    expect(toLautschriftWord('frēond')).toBe('freond');
+    expect(toLautschriftWord('hīeran')).toBe('hieran');
     expect(toLautschriftWord('mǣl')).toBe('määl');
     expect(toLautschriftWord('sē')).toBe('seh');
     expect(toLautschriftWord('wē')).toBe('weh');
@@ -34,6 +34,7 @@ describe('toLautschriftWord (skill rules)', () => {
     expect(toLautschriftWord('ælc')).toBe('ältsch');
     expect(toLautschriftWord('folc')).toBe('folk');
     expect(toLautschriftWord('dæġ')).toBe('däj');
+    expect(toLautschriftWord('gǣþ')).toBe('gääth');
   });
 
   it('voices fricatives only between voiced sounds', () => {
@@ -52,18 +53,22 @@ describe('toLautschriftWord (skill rules)', () => {
   it('never starts a word with ß', () => {
     expect(toLautschriftWord('sindon')).toBe('sindon');
     expect(toLautschriftWord('sang')).toBe('sang');
-    expect(toLautschriftWord('sēo')).toBe('séo');
+    expect(toLautschriftWord('sēo')).toBe('seo');
   });
 });
 
 describe('transliterate (OE -> Lautschrift for TTS)', () => {
   it('uses curated lexicon phrases', () => {
     expect(transliterate('iċ eom hāl')).toBe('itsch eom haal');
-    expect(transliterate('wes hāl')).toBe('weß haal');
+    expect(transliterate('wes hāl')).toBe('wes haal');
   });
 
   it('mixes phrases, words and punctuation', () => {
-    expect(transliterate('Wes hāl, frēond!')).toBe('Weß haal, fréond!');
+    expect(transliterate('Wes hāl, frēond!')).toBe('Wes haal, freond!');
+  });
+
+  it('greets and asks how it goes', () => {
+    expect(transliterate('Wes hāl, frēond. Hū gǣþ hit?')).toBe('Wes haal, freond. Huu gääth hit?');
   });
 
   it('matches single words from the lexicon', () => {
@@ -85,7 +90,7 @@ describe('transliterate (OE -> Lautschrift for TTS)', () => {
   });
 
   it('keeps punctuation attached to phrase matches', () => {
-    expect(transliterate('wes hāl.')).toBe('weß haal.');
+    expect(transliterate('wes hāl.')).toBe('wes haal.');
   });
 });
 
