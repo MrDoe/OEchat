@@ -91,6 +91,11 @@ const EXTRA_ENTRIES: Entry[] = [
   { word: 'friþ', ipa: 'friθ', meaning: 'peace', ttsEn: 'frith', ttsDe: 'frith' },
   { word: 'ealle', ipa: 'ˈæɑl.le', meaning: 'all', ttsEn: 'al-leh', ttsDe: 'al-leh' },
   { word: 'līf', ipa: 'liːf', meaning: 'life', ttsEn: 'leef', ttsDe: 'leef' },
+  { word: 'hāte', ipa: 'ˈhɑː.te', meaning: 'I am called; I command', ttsEn: 'haa-teh', ttsDe: 'haate' },
+  { word: 'hātest', ipa: 'ˈhɑː.test', meaning: 'you are called', ttsEn: 'haa-test', ttsDe: 'haateßt' },
+  { word: 'hāteþ', ipa: 'ˈhɑː.teθ', meaning: 'he/she is called', ttsEn: 'haa-teth', ttsDe: 'haateth' },
+  { word: 'hātaþ', ipa: 'ˈhɑː.tɑθ', meaning: 'you/they are called', ttsEn: 'haa-tath', ttsDe: 'haatath' },
+  { word: 'hātan', ipa: 'ˈhɑː.tɑn', meaning: 'to be called, to command', ttsEn: 'haa-tahn', ttsDe: 'haatan' },
 ];
 
 function normalizeKey(s: string): string {

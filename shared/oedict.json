@@ -338,6 +338,706 @@
       "ttsDe": "hee-eh zin-don haah-leh"
     },
     {
+      "word": "Wēs hāl.",
+      "ipa": "",
+      "meaning": "Hello!",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Wesaþ hāle.",
+      "ipa": "",
+      "meaning": "Hello! (to several people)",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Gōdne morgen.",
+      "ipa": "",
+      "meaning": "Good morning.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Gōdne ǣfen.",
+      "ipa": "",
+      "meaning": "Good evening.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Gōde niht.",
+      "ipa": "",
+      "meaning": "Good night.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Gēa.",
+      "ipa": "",
+      "meaning": "Yes.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Nese.",
+      "ipa": "",
+      "meaning": "No.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic þancie þē.",
+      "ipa": "",
+      "meaning": "Thank you.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "God þē mid sīe.",
+      "ipa": "",
+      "meaning": "Goodbye. (God be with you.)",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Far wel.",
+      "ipa": "",
+      "meaning": "Farewell.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hwæt is þīn nama?",
+      "ipa": "",
+      "meaning": "What is your name?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Mīn nama is Wulf.",
+      "ipa": "",
+      "meaning": "My name is Wulf.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hwanon eart þū?",
+      "ipa": "",
+      "meaning": "Where are you from?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic eom of Englalande.",
+      "ipa": "",
+      "meaning": "I am from England.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hwǣr eart þū?",
+      "ipa": "",
+      "meaning": "Where are you?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic eom hēr.",
+      "ipa": "",
+      "meaning": "I am here.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hū eald eart þū?",
+      "ipa": "",
+      "meaning": "How old are you?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic eom geong.",
+      "ipa": "",
+      "meaning": "I am young.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hū gǣþ hit?",
+      "ipa": "",
+      "meaning": "How is it going?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hit gǣþ wel.",
+      "ipa": "",
+      "meaning": "It is going well.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic eom wērig.",
+      "ipa": "",
+      "meaning": "I am tired.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic eom grǣdig.",
+      "ipa": "",
+      "meaning": "I am hungry.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic eom þurstig.",
+      "ipa": "",
+      "meaning": "I am thirsty.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic lufige þē.",
+      "ipa": "",
+      "meaning": "I love you.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Mīn heorte is glæd.",
+      "ipa": "",
+      "meaning": "My heart is glad.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hit is sōþ.",
+      "ipa": "",
+      "meaning": "It is true.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic nāt.",
+      "ipa": "",
+      "meaning": "I do not know.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Wā is mē.",
+      "ipa": "",
+      "meaning": "Woe is me.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hē is dēad.",
+      "ipa": "",
+      "meaning": "He is dead.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hēo is cwic.",
+      "ipa": "",
+      "meaning": "She is alive.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hē is mīn brōðor.",
+      "ipa": "",
+      "meaning": "He is my brother.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hēo is mīn sweostor.",
+      "ipa": "",
+      "meaning": "She is my sister.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Mīn fæder is strang.",
+      "ipa": "",
+      "meaning": "My father is strong.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Mīn mōdor is wīs.",
+      "ipa": "",
+      "meaning": "My mother is wise.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt cild plægþ.",
+      "ipa": "",
+      "meaning": "The child plays.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se mann is hēah.",
+      "ipa": "",
+      "meaning": "The man is tall.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt wīf is scīene.",
+      "ipa": "",
+      "meaning": "The woman is beautiful.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hwǣr is se cyning?",
+      "ipa": "",
+      "meaning": "Where is the king?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Sēo cwēn is wīs.",
+      "ipa": "",
+      "meaning": "The queen is wise.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se scop singþ.",
+      "ipa": "",
+      "meaning": "The poet sings.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hit rīnþ.",
+      "ipa": "",
+      "meaning": "It is raining.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Sēo sunne scīnþ.",
+      "ipa": "",
+      "meaning": "The sun shines.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se snāw feallþ.",
+      "ipa": "",
+      "meaning": "The snow falls.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se wind blǣwþ.",
+      "ipa": "",
+      "meaning": "The wind blows.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hit is ceald.",
+      "ipa": "",
+      "meaning": "It is cold.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hit is wearm.",
+      "ipa": "",
+      "meaning": "It is warm.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se dæg is beorht.",
+      "ipa": "",
+      "meaning": "The day is bright.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Sēo niht is þīestre.",
+      "ipa": "",
+      "meaning": "The night is dark.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se wudu is grēne.",
+      "ipa": "",
+      "meaning": "The forest is green.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt trēow is eald.",
+      "ipa": "",
+      "meaning": "The tree is old.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se hund is gōd.",
+      "ipa": "",
+      "meaning": "The dog is good.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Sēo catte slǣpþ.",
+      "ipa": "",
+      "meaning": "The cat sleeps.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt hors yrnþ.",
+      "ipa": "",
+      "meaning": "The horse runs.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se fugol singþ.",
+      "ipa": "",
+      "meaning": "The bird sings.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic sēo þone wulf.",
+      "ipa": "",
+      "meaning": "I see the wolf.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se fisc swimþ.",
+      "ipa": "",
+      "meaning": "The fish swims.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se hafoc flīehþ.",
+      "ipa": "",
+      "meaning": "The hawk flies.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt cild lufige þone hund.",
+      "ipa": "",
+      "meaning": "The child loves the dog.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se bera is strang.",
+      "ipa": "",
+      "meaning": "The bear is strong.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hwǣr is þæt dēor?",
+      "ipa": "",
+      "meaning": "Where is the animal?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hwæt dēst þū?",
+      "ipa": "",
+      "meaning": "What are you doing?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic leornige Ænglisc.",
+      "ipa": "",
+      "meaning": "I am learning English.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Spricst þū Ænglisc?",
+      "ipa": "",
+      "meaning": "Do you speak English?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic ne mæg þē understandan.",
+      "ipa": "",
+      "meaning": "I cannot understand you.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic gā tō hūse.",
+      "ipa": "",
+      "meaning": "I am going home.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic ete hlāf.",
+      "ipa": "",
+      "meaning": "I eat bread.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic drince wæter.",
+      "ipa": "",
+      "meaning": "I drink water.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hē drincþ medu.",
+      "ipa": "",
+      "meaning": "He drinks mead.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Wē etaþ flæsc.",
+      "ipa": "",
+      "meaning": "We eat meat.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic slǣpe wel.",
+      "ipa": "",
+      "meaning": "I sleep well.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hwæt is þæt?",
+      "ipa": "",
+      "meaning": "What is that?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt is bōc.",
+      "ipa": "",
+      "meaning": "That is a book.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt is sweord.",
+      "ipa": "",
+      "meaning": "That is a sword.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic hæbbe ān æppel.",
+      "ipa": "",
+      "meaning": "I have an apple.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þū hæfst gōd swurd.",
+      "ipa": "",
+      "meaning": "You have a good sword.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Sēo heall is micel.",
+      "ipa": "",
+      "meaning": "The hall is great.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Mīn hūs is stǣnen.",
+      "ipa": "",
+      "meaning": "My house is of stone.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt fȳr byrnþ.",
+      "ipa": "",
+      "meaning": "The fire burns.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Sēo ēa is dēop.",
+      "ipa": "",
+      "meaning": "The river is deep.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se bāt is læt.",
+      "ipa": "",
+      "meaning": "The boat is slow.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Wacaþ!",
+      "ipa": "",
+      "meaning": "Wake up!",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Cumaþ hēr.",
+      "ipa": "",
+      "meaning": "Come here.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Gā aweg.",
+      "ipa": "",
+      "meaning": "Go away.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Lǣt mē bēon.",
+      "ipa": "",
+      "meaning": "Leave me alone.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Sing mē sang.",
+      "ipa": "",
+      "meaning": "Sing me a song.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Bring mē þæt scip.",
+      "ipa": "",
+      "meaning": "Bring me the ship.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hēo cwiþ sōþ.",
+      "ipa": "",
+      "meaning": "She speaks the truth.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt weorc is heard.",
+      "ipa": "",
+      "meaning": "The work is hard.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Þæt is gōd rǣd.",
+      "ipa": "",
+      "meaning": "That is good advice.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Wē wuniaþ on friþe.",
+      "ipa": "",
+      "meaning": "We live in peace.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic fāre ofer sǣ.",
+      "ipa": "",
+      "meaning": "I travel over the sea.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Se cniht rītt.",
+      "ipa": "",
+      "meaning": "The knight rides.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hīe rīdaþ tō tūne.",
+      "ipa": "",
+      "meaning": "They ride to town.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic eom fūs tō farenne.",
+      "ipa": "",
+      "meaning": "I am ready to go.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hē sēceþ gold.",
+      "ipa": "",
+      "meaning": "He seeks gold.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic sēce mīnne frēond.",
+      "ipa": "",
+      "meaning": "I seek my friend.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Hwelc dæg is tōdæg?",
+      "ipa": "",
+      "meaning": "Which day is today?",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Tōdæg is Frīgedæg.",
+      "ipa": "",
+      "meaning": "Today is Friday.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic lufie gōdne sang.",
+      "ipa": "",
+      "meaning": "I love a good song.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
+      "word": "Ic geseah sumne mann.",
+      "ipa": "",
+      "meaning": "I saw a man.",
+      "ttsEn": "",
+      "ttsDe": ""
+    },
+    {
       "word": "hwæt",
       "ipa": "hwæt",
       "meaning": "what; lo!",
@@ -798,6 +1498,41 @@
       "meaning": "life",
       "ttsEn": "leef",
       "ttsDe": "leef"
+    },
+    {
+      "word": "hāte",
+      "ipa": "ˈhɑː.te",
+      "meaning": "I am called; I command",
+      "ttsEn": "haa-teh",
+      "ttsDe": "haate"
+    },
+    {
+      "word": "hātest",
+      "ipa": "ˈhɑː.test",
+      "meaning": "you are called",
+      "ttsEn": "haa-test",
+      "ttsDe": "haateßt"
+    },
+    {
+      "word": "hāteþ",
+      "ipa": "ˈhɑː.teθ",
+      "meaning": "he/she is called",
+      "ttsEn": "haa-teth",
+      "ttsDe": "haateth"
+    },
+    {
+      "word": "hātaþ",
+      "ipa": "ˈhɑː.tɑθ",
+      "meaning": "you/they are called",
+      "ttsEn": "haa-tath",
+      "ttsDe": "haatath"
+    },
+    {
+      "word": "hātan",
+      "ipa": "ˈhɑː.tɑn",
+      "meaning": "to be called, to command",
+      "ttsEn": "haa-tahn",
+      "ttsDe": "haatan"
     }
   ]
 }
