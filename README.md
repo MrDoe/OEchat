@@ -76,7 +76,7 @@ below are set up once, steps 1–2 are only needed on first run.
 
 Everything is loaded concurrently, so stop other models (`ollama stop` /
 unload ollama models you are not using) before starting. If a service fails
-with CUDA OOM, free VRAM first, then retry — the services load lazily.
+with CUDA OOM, free VRAM first, then retry. The services load lazily.
 
 Tuning:
 - `WHISPER_COMPUTE_TYPE=float16` (`infra/asr/run.sh`) — slightly better
@@ -103,8 +103,7 @@ npm run check-tts      # synthesize sample sentences, listen to /tmp/oechat-tts-
 
 ## Ports
 
-- OEchat server: `3001` (elderlingo uses the same port — run one at a time,
-  or set `PORT=3002`).
+- OEchat server: `3001`
 - STT: `8080` · Chatterbox: `4123` · ollama: `11434` · Vite dev: `5173`.
 
 ## Tests
