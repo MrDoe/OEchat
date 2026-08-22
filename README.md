@@ -1,7 +1,7 @@
-# OEchat — Sprecan on Englisċ
+# OEchat - Sprecan on Englisċ
 
 An Old English voice chatbot. Hold the ᚦ button, speak Old English, and Se
-Lēodwita replies in Old English — with an English gloss — spoken back to you
+Lēodwita replies in Old English - with an English gloss - spoken back to you
 in an authentic reconstructed accent. Everything runs locally.
 
 ## Architecture
@@ -19,22 +19,22 @@ in an authentic reconstructed accent. Everything runs locally.
                                           phonetic script for authentic OE sound)
 ```
 
-- **STT** — `infra/asr/` runs `faster-whisper` (CTranslate2) on the GPU with
+- **STT** - `infra/asr/` runs `faster-whisper` (CTranslate2) on the GPU with
   the cached `Systran/faster-whisper-large-v3` model. Whisper has no Old
   English, so OE is recognized phonetically as English, biased by an Old
   English initial prompt, and best-effort corrected to OE orthography by
   `shared/oedict.ts`.
-- **Brain** — ollama `gemma4:12b` with a system prompt pinning early West
+- **Brain** - ollama `gemma4:12b` with a system prompt pinning early West
   Saxon orthography, simple sentences, a vocabulary list (generated from the
   dictionary) and strict JSON `{"oe": …, "gloss": …}` output.
-- **TTS** — Chatterbox (elderlingo's `infra/tts-compose.yml`) synthesizes via
+- **TTS** - Chatterbox (elderlingo's `infra/tts-compose.yml`) synthesizes via
   zero-shot voice cloning of `infra/voices/narrator_sample.wav`. OE text is
   converted to an internal phonetic script by the mechanical rules of the
   `altenglisch-lautschrift` skill (diphthongs, vowel length, palatal c/g, h,
   fricative voicing; `shared/oedict.ts` `transliterate()`), after canonicalizing
   through the dictionary. The learned multilingual tokenizer pronounces this
   German-readable script with German phonology — the closest authentic OE sound.
-- **Client** — React + Vite, single chat page: hold-to-talk mic, text fallback,
+- **Client** - React + Vite, single chat page: hold-to-talk mic, text fallback,
   mute toggle, auto-play of replies, service health indicators.
 
 ## Setup
@@ -46,14 +46,14 @@ running, NVIDIA GPU with the container toolkit for chatterbox.
 npm install
 bash scripts/gpu-status.sh        # check VRAM headroom first
 
-# 1. STT — first start creates infra/asr/.venv and finishes the
+# 1. STT - first start creates infra/asr/.venv and finishes the
 #    faster-whisper-large-v3 download (~3 GB, cached in ~/.cache/huggingface)
 bash infra/asr/run.sh             # → http://localhost:8080
 
-# 2. TTS — Chatterbox container (from elderlingo):
+# 2. TTS - Chatterbox container (from elderlingo):
 docker compose -f ../elderlingo/infra/tts-compose.yml up -d   # :4123
 
-# 3. Brain — pull the model and check the voice sample exists
+# 3. Brain - pull the model and check the voice sample exists
 ollama pull gemma4:12b
 ls infra/voices/narrator_sample.wav   # copied from elderlingo
 
@@ -79,7 +79,7 @@ unload ollama models you are not using) before starting. If a service fails
 with CUDA OOM, free VRAM first, then retry. The services load lazily.
 
 Tuning:
-- `WHISPER_COMPUTE_TYPE=float16` (`infra/asr/run.sh`) — slightly better
+- `WHISPER_COMPUTE_TYPE=float16` (`infra/asr/run.sh`) - slightly better
   accuracy, +1.5 GB VRAM. `WHISPER_DEVICE=cpu` trades speed for ~2 GB.
 - `LLM_MODEL`, `OLLAMA_URL`, `WHISPER_URL`, `CHATTERBOX_URL`, `OE_VOICE_SAMPLE`,
   `PORT` env vars override defaults.
